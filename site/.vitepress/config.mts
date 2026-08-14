@@ -16,7 +16,7 @@ const eduSidebar = [
       { text: "Factories", link: "/edu/factory" },
       { text: "The Power of Injection", link: "/edu/injection" },
       { text: "Dependency Injection with Dagger", link: "/edu/dagger" },
-      { text: "Upgrading Using the SeriouslyCommonLib", link: "/edu/" },
+      { text: "Upgrading Using the SeriouslyCommonLib", link: "/edu/switch-to-scl" },
       { text: "Running XbotEDU on a Real Robot", link: "/edu/robox" },
       { text: "Auto Stopping Collector", link: "/edu/auto-stopping-collector" },    
     ],
