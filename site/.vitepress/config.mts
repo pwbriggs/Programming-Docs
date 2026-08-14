@@ -28,6 +28,7 @@ export default defineConfig({
   title: "XBOT Programming",
   description: "A guide and reference for new and existing members",
   base: "/Programming-Docs/",
+  head: [['link', { rel: 'icon', href: '/Programming-Docs/xbot.logomark.white-on-blue.square.svg' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -35,10 +36,12 @@ export default defineConfig({
     ],
 
     sidebar: {
-      "/edu/": {
-        text: 'Curriculum',
-        items: eduSidebar,
-      }
+      "/edu/": eduSidebar,
+    },
+
+    logo: {
+      light: "/xbot.logomark.black.svg",
+      dark:  "/xbot.logomark.white.svg",
     },
 
     socialLinks: [
