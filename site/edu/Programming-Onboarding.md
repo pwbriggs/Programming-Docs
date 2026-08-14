@@ -6,7 +6,7 @@ you did/didn\'t do! If you run into any problems at all don\'t hesitate
 to reach out to other people on the programming team, we\'re here to
 help!
 
-# Account setup {#account_setup}
+# Account setup
 
 Follow the instructions below to get accounts for the following
 services.
@@ -52,7 +52,7 @@ join our organization. If you have a gmail address, that works best. If
 Asana forces you to sign in with your seattleschools.org email address,
 you can clear your browser cookies to sign in with your personal email.
 
-# Software Install {#software_install}
+# Software Install
 
 If you\'re borrowing a laptop from the team it might already have some
 of the required software on it, ask someone to help you figure out
@@ -61,7 +61,7 @@ what\'s missing.
 A quick sanity check is look for a program called \`2025 WPILib VS
 Code\`, if it\'s there you\'re probably good for this year.
 
-## Install GitHub Desktop {#install_github_desktop}
+## Install GitHub Desktop
 
 1.  Go to <https://desktop.github.com/> and click the \"Download for
     Windows\" button.
@@ -69,7 +69,7 @@ Code\`, if it\'s there you\'re probably good for this year.
     Desktop when it\'s done.
 3.  Click \"Sign in to Github.com\" and sign in with your account.
 
-## Installing/Updating FRC Game Tools {#installingupdating_frc_game_tools}
+## Installing/Updating FRC Game Tools
 
 *It is recommended to uninstall any previous FRC related files according
 to the instructions*
@@ -84,7 +84,7 @@ Go here and follow the instructions:
     ahead and create a new account. You can set Organization to team488.
 -   Update in the National Instruments app when prompted.
 
-## Installing WPILib Tools {#installing_wpilib_tools}
+## Installing WPILib Tools
 
 ***Note:** It is easy to miss a step here, read the instructions
 carefully!*
@@ -106,7 +106,7 @@ here](https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.h
 Once you hit the \"Post-Installation\" step in the WPILib Installation
 Guide, you can stop.
 
-## Installing and Configuring IntelliJ {#installing_and_configuring_intellij}
+## Installing and Configuring IntelliJ
 
 1.  Go
     [here](https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC)
@@ -125,7 +125,7 @@ Guide, you can stop.
 7.  From the Welcome screen, on the Customize tab, select VSCode under
     Keymap (optional, but recommended).
 
-## Installing Device Programming Tools {#installing_device_programming_tools}
+## Installing Device Programming Tools
 
 Rev Hardware Client and Phoenix Tuner X are programs used to set up
 motor controllers and other similar devices. Not everyone needs to use

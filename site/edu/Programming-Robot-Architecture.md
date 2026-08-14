@@ -25,7 +25,7 @@ It roughly works like this:
 FIRST also has a great page that explains the Command pattern:
 <https://wpilib.screenstepslive.com/s/3120/m/7952/l/105519-what-is-command-based-programming>
 
-## More Details {#more_details}
+## More Details
 
 ### Subsystems
 
@@ -50,7 +50,7 @@ expose out methods that aren\'t likely to change for others to use.
 This diagram helps show the lifecycle that a Command goes through:
 \[Commands\](https://github.com/Team488/SeriouslyCommonLib/wiki/Commands)
 
-#### Starting commands {#starting_commands}
+#### Starting commands
 
 On the real robot, commands are often started by a human pushing a
 joystick button. For example the operator might push a button to run the
@@ -71,7 +71,7 @@ practice is that when this command starts running if there were any
 commands already running that also required any of these subsystems,
 those existing commands will be cancelled.
 
-#### Default commands {#default_commands}
+#### Default commands
 
 A Subsystem can optionally have 1 default command specified. This
 command will be run whenever no other commands that require the
@@ -85,15 +85,15 @@ Default Commands for Subsystems are specified in the
 `SubsystemDefaultCommandMap` class. A default Command must require the
 Subsystem is it default for.
 
-#### Operator Command Map {#operator_command_map}
+#### Operator Command Map
 
 TODO populate this
 
-### Virtual Subsystems {#virtual_subsystems}
+### Virtual Subsystems
 
 TODO populate this
 
-## How tos {#how_tos}
+## How tos
 
 -   [ How to create a new
     subsystem](Programming:_How_to_create_a_new_subsystem "wikilink")

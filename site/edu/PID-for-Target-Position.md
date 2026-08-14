@@ -11,7 +11,7 @@ based on
 Rather than rewrite that code over and over, we have a highly-tested and
 reliable PD controller that you can use.
 
-## Setting up the PIDManager {#setting_up_the_pidmanager}
+## Setting up the PIDManager
 
 To get it, we will get a PIDManagerFactory, and we\'ll use that to
 create a PIDManager, which is what we actually will use in your class
@@ -91,7 +91,7 @@ we\'ll call the PIDManager\'s reset() function in initialize:
 
 \`\`\`
 
-## Using the PIDManager to get to our target {#using_the_pidmanager_to_get_to_our_target}
+## Using the PIDManager to get to our target
 
 Now to use this thing! Do something like the code below (it may be
 slightly different depending on how you wrote your DriveSubsystem):

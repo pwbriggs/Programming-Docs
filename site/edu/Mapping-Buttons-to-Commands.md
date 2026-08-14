@@ -50,7 +50,7 @@ In the body of the method, we do a few things:
 
 # Advanced
 
-## Provider\<\> and using the same command over and over {#provider_and_using_the_same_command_over_and_over}
+## Provider\<\> and using the same command over and over
 
 You can run into a case where you need to use the same command multiple
 times. Perhaps you made a command called TurnToAnyAngleCommand, which

@@ -1,4 +1,4 @@
-## Getting started {#getting_started}
+## Getting started
 
 ### Onboarding
 
@@ -6,7 +6,7 @@ If you haven\'t yet, follow the instructions in
 [Onboarding](Programming_Onboarding "wikilink") to install all the
 required tools you\'ll need.
 
-### Fork the XbotEdu repository {#fork_the_xbotedu_repository}
+### Fork the XbotEdu repository
 
 A fork is a copy of a repository. Forking a repository allows you to
 freely experiment with changes without affecting the original project.
@@ -21,7 +21,7 @@ forking](https://help.github.com/articles/fork-a-repo/).
     not always, it might just do it automatically. select your user
     account (should be the first entry)
 
-### Sync the repository locally {#sync_the_repository_locally}
+### Sync the repository locally
 
 1.  If you haven't already, you will [Use SmartGit to
     clone](Use_SmartGit_to_clone "wikilink") that forked XbotEdu
@@ -37,15 +37,10 @@ line, like a GitWizard), run the following commands:
     git submodule init
     git submodule update
 
-### Open the Edu projects in VSCode {#open_the_edu_projects_in_vscode}
+### Open the Edu projects in VSCode
 
 1.  Open VSCode
 2.  File -\> Open Workspace\...
 3.  Navigate to your XbotEdu repository location (By default, might be
     Documents/Github/XbotEdu)
 4.  Open XbotEdu.code-workspace
-
-## Next Steps {#next_steps}
-
-Continue with the next challenge: [Basic Robot
-Principles](Basic_Robot_Principles "wikilink")

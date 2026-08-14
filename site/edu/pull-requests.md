@@ -2,8 +2,6 @@
 
 As you complete programming tasks, you'll submit your work using a **Pull Request** (PR). This lets your mentors/peers review your code before it becomes part of the main robot project. This is used every day in software jobs in industry as a best practice.
 
----
-
 ## 🧠 What is a Pull Request?
 
 A **Pull Request** is a way to propose changes to the team's code. You're asking to "pull" your work into the official `main` branch.
@@ -15,14 +13,10 @@ We use PRs because:
 
 > 🚫 Never push directly to `main`. Always use a branch and a PR.
 
----
-
 ## 🌲 What is "merging into main"?
 
 The `main` branch is the official version of the code — it’s what gets deployed to the robot.
 When a PR is merged, your branch’s changes are added into `main` and everyone else will get them too.
-
----
 
 ## 🛠️ Steps: How to Make a Pull Request
 
@@ -66,13 +60,6 @@ git push origin your-branch-name
 - In the PR page, find the **Reviewers** section
 - Add your teacher’s GitHub username (for Alex that's `aschokking`)
 
----
+## ✅ (sort of) done!
 
-✅ (sort of) done! Your code is now ready to be reviewed. After review your reviewer will either Approve the PR in which case you can merge it, or they'll Request Changes that should be made. This iterative process continues until the PR is approved and then merged.
-
----
-
-## Next Steps
-
-Continue with the next curriculum challenge: [Rotating to a target orientation](Curriculum-challenge-~-Rotating-to-a-target-orientation)
-
+Your code is now ready to be reviewed. After review your reviewer will either Approve the PR in which case you can merge it, or they'll Request Changes that should be made. This iterative process continues until the PR is approved and then merged.

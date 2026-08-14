@@ -225,7 +225,3 @@ As an example, this would be a valid Java logical expression:
 ```java
 boolean isFastFood = (isHamburger || isFrenchFries) && !isHealthy;
 ```
-
-# Next Steps
-
-Continue with the next challenge: [Basic Robot Principles](<./Curriculum-challenge-~-Basic-Robot-Principles>)

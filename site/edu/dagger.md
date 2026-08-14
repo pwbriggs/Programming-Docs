@@ -133,4 +133,4 @@ How would you add your own commands to Dagger's component list so that you can e
 
 ## Next Steps
 
-You will see a lot more of dependency injection in the next challenge, [[Curriculum challenge ~ Upgrading Using the SeriouslyCommonLib]].
+You'll see a lot more dependency injection in the next challenge, when we begin integrating with SeriouslyCommonLib.

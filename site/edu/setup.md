@@ -1,4 +1,4 @@
-## Getting started {#getting_started}
+## Getting started
 
 ### Onboarding
 
@@ -10,7 +10,7 @@ instructions in [Full Programming
 Onboarding](Programming_Onboarding "wikilink") to install all the
 required tools you\'ll need.
 
-### Fork the XbotEdu repository {#fork_the_xbotedu_repository}
+### Fork the XbotEdu repository
 
 A \'fork\' is a personal copy of a code repository. Forking a repository
 allows you to freely experiment with changes without affecting the
@@ -25,7 +25,7 @@ forking](https://help.github.com/articles/fork-a-repo/).
     not always, it might just do it automatically. select your user
     account (should be the first entry)
 
-### Sync the repository locally {#sync_the_repository_locally}
+### Sync the repository locally
 
 1.  If you haven't already, you will [Use GitHub Desktop to
     clone](Use_GitHub_Desktop_to_clone "wikilink") that forked XbotEdu
@@ -37,7 +37,7 @@ command line, like a GitWizard), run the following commands:
     git submodule init
     git submodule update
 
-### Open the Edu projects in IntelliJ {#open_the_edu_projects_in_intellij}
+### Open the Edu projects in IntelliJ
 
 1.  Open the application \'IntelliJ IDEA Community Edition\' that we
     installed during the onboarding steps.
@@ -79,8 +79,3 @@ Open up the Settings dialog.
 Navigate to \"Build, Execution, Deployment\" -\> \"Build Tools\" -\>
 \"Gradle\" in the menu on the left. In the \"Gradle JVM\" field, select
 \"Project SDK\", and then click OK.
-
-## Next Steps {#next_steps}
-
-Continue with the next lesson: [Lesson \~ Java
-Basics](Lesson_~_Java_Basics "wikilink")

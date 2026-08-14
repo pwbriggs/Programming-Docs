@@ -6,14 +6,14 @@ it.
 **REMINDER** Don\'t forget to make a new branch! Get into the habit of
 doing this at the start of each new feature.
 
-## Our orientation system {#our_orientation_system}
+## Our orientation system
 
 Read this to understand how we define rotation: [Frames of
 reference](https://github.com/Team488/SeriouslyCommonLib/wiki/Frames-of-reference)
 
 You\'ll need to know this to complete this challenge.
 
-## Graphical Tests {#graphical_tests}
+## Graphical Tests
 
 [images/Rotation-visualizer.png](images/Rotation-visualizer.png "wikilink")
 
@@ -38,7 +38,7 @@ start the simulation.
 
 Note - your robot may not necessarily start at 0 degrees! =\]
 
-## Part1: Turning 90 degrees {#part1_turning_90_degrees}
+## Part1: Turning 90 degrees
 
 The goal is to write a command that will rotate the robot 90 degrees to
 the left as quickly as possible, and then end.
@@ -60,7 +60,7 @@ field and returns a value from -180 to 180 degrees.
 absolute certainty and the value relative to the field degrades with
 time.
 
-## Part 2: Turning to an arbitrary orientation {#part_2_turning_to_an_arbitrary_orientation}
+## Part 2: Turning to an arbitrary orientation
 
 Now that you have your basic 90 degree turn working, we\'re going to
 expand upon that with a more complicated command that will rotate the
@@ -79,8 +79,6 @@ Now you should be able to get all tests in this class to pass, since you
 have both TurnLeft90DegreesCommand and DriveToOrientationCommand
 written.
 
-## Next steps {#next_steps}
+## Next steps
 
-Now that you have a good foundation with writing individual commands,
-let\'s learn about combining them with
-[CommandGroups](Curriculum‐Lesson‐~‐CommandGroups "wikilink")
+Now that you have a good foundation writing individual commands, let's learn about how to combine them to make more complex *command groups*.

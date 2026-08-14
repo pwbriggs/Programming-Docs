@@ -23,13 +23,10 @@ Test your program in the simulator (visualized in AdvantageScope)
 
 ## Pull Request
 
-Now is another great time to get feedback on your code so far. Make a Pull Request and include:
-- a video of your robot doing the square operation in the simulator
-
+Now is another great time to get feedback on your code so far. Make a Pull Request and include a video of your robot doing the square operation in the simulator.
 
 ## Next Steps
 
 Congratulations on making it this far! You now know a lot of the concepts you need to program a basic robot.
 
-Next we'll level up your current code solutions using some powerful library features the team has built up, but first you need to learn about some of the techniques we use: [Factory Pattern](https://github.com/Team488/XbotEdu/wiki/Curriculum-Lesson-~-Factory-Pattern)
-
+Next we'll level up your current code solutions using some powerful library features the team has built up, but first you need to learn about some of the techniques we use, starting with the *Factory Pattern*.

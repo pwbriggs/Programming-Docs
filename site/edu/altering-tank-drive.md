@@ -5,16 +5,16 @@ a set of 2 joysticks using tank drive. Next we\'re going to augment that
 basic drive system to support a whole range of new pieces of
 functionality.
 
-### Note about \'buttons\' {#note_about_buttons}
+### Note about \'buttons\'
 
 For the commands in this list, you can just focus on implementing the
 command itself at first. Don't worry about mapping the commands to
 buttons, the unit tests will just run your command directly. Later on
 you\'ll learn how to do the button-\>command mapping.
 
-## Features to add {#features_to_add}
+## Features to add
 
-### Precision Drive: {#precision_drive}
+### Precision Drive:
 
 When the driver presses a button (which invokes your command), all robot
 power is reduced by 50%. When they press this button again, power
@@ -38,7 +38,7 @@ Hints:
     TogglePrecisionDriveCommand to save some information into the
     DriveSubsystem every time the command runs.
 
-### Arcade Drive (Advanced) {#arcade_drive_advanced}
+### Arcade Drive (Advanced)
 
 Arcade drive is an alternative scheme for controlling our robot. Instead
 of using 2 joysticks where we only use the y-axis of each, with arcade
@@ -66,7 +66,7 @@ We use Xbox and similar controllers for driving the robot:
 
 [images/Joystick_Controller.png](images/Joystick_Controller.png "wikilink")
 
-## Mapping buttons {#mapping_buttons}
+## Mapping buttons
 
 Now that we\'ve written and tested our new commands, let\'s map them to
 some gamepad buttons so you can try them out while driving a real or
@@ -98,8 +98,3 @@ the drive is slowed as expected.
 
 Once that works, see if you can map Arcade drive to a button and test
 that out too!
-
-## Next Steps {#next_steps}
-
-Continue with the next curriculum challenge: [Moving to a target
-position](Curriculum_challenge_~_Moving_to_a_target_position "wikilink")

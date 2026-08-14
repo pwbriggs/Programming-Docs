@@ -20,7 +20,7 @@ The robot you will be programming will have the following configuration
 
 [images/Tank-drive.png](images/Tank-drive.png "wikilink")
 
-## How do we make robots do things? {#how_do_we_make_robots_do_things}
+## How do we make robots do things?
 
 Robots are complicated, involving a lot of work in the Design,
 Mechanical, Electrical, and Computer aspects of engineering. As part of
@@ -46,7 +46,7 @@ The OperatorInterface contains objects that represent all those
 joysticks and buttons and switches and such. If you want the robot to
 respond to human input, you need to use it in your code.
 
-## What you\'ll be doing {#what_youll_be_doing}
+## What you\'ll be doing
 
 There are 3 Java class files that you\'ll be interacting with:
 
@@ -110,7 +110,7 @@ It has three major sections.
 -   What this Command will do the very first time it is called.
 -   What this Command will do 20x a second until it is finished.
 
-#### What this Command has access to {#what_this_command_has_access_to}
+#### What this Command has access to
 
         @Inject
         public TankDriveWithJoysticksCommand(DriveSubsystem driveSubsystem, OperatorInterface oi) {
@@ -125,7 +125,7 @@ This Command knows about two entities:
 -   OperatorInterface: A class that has all the user input devices, like
     Joysticks and buttons.
 
-#### What this Command will do the first time it is called {#what_this_command_will_do_the_first_time_it_is_called}
+#### What this Command will do the first time it is called
 
         @Override
         public void initialize() {
@@ -136,7 +136,7 @@ This Command knows about two entities:
 Right now, this is empty - so when this Command is called for the first
 time, it will just do nothing.
 
-#### What this command will do 20x a second until it is finished {#what_this_command_will_do_20x_a_second_until_it_is_finished}
+#### What this command will do 20x a second until it is finished
 
         @Override
         public void execute() {
@@ -174,7 +174,7 @@ easy way is as follows:
 These tests will not pass initially. It is your job to modify both
 TankDriveWithJoysticksCommand and DriveSubsystem to make the tests pass.
 
-### Implement tank drive {#implement_tank_drive}
+### Implement tank drive
 
 Now it's time to start writing some Java code to make your new tank
 drive project actually do something. If you get really stuck, take a
@@ -209,7 +209,7 @@ then tell the DriveSubsystem what to do. Some useful tips:
 Inside the DriveSubsystem\'s tankDrive() method you\'ll also need to
 make sure the passed in power goes to the right motor.
 
-## Driving a simulated Robot {#driving_a_simulated_robot}
+## Driving a simulated Robot
 
 We have a robot simulator that lets us test out robot code without
 physically having a robot. This is very helpful because we often have to
@@ -252,7 +252,7 @@ Now you should be able to drive your robot around using your gamepad and
 the tank drive control scheme, try it out and navigate around the field
 to get a feel for it.
 
-## Saving your code {#saving_your_code}
+## Saving your code
 
 Now that we have some new code created, we want to check it into the git
 repository and push it up to the central server. This way, if you ever
@@ -272,13 +272,13 @@ code.
     repository so you could \'pull\' the changes back down on another
     machine.
 
-## Check your understanding {#check_your_understanding}
+## Check your understanding
 
 With this [quick quiz](https://forms.gle/tYNrzXWd2o1JdSeS8)
 
-## Extra Learning {#extra_learning}
+## Extra Learning
 
-### Deploying code to the Robot {#deploying_code_to_the_robot}
+### Deploying code to the Robot
 
 Once you're ready to test your code on a real robot (and you have access
 to a real robot), follow these steps:
@@ -294,7 +294,7 @@ to a real robot), follow these steps:
 4.  Deployment should take less than a minute. Afterwards, the driver
     station should report that the robot has code on it! Yay!
 
-### Testing tank drive on the real robot {#testing_tank_drive_on_the_real_robot}
+### Testing tank drive on the real robot
 
 1.  Place robot on top of blocks (so the wheels aren\'t touching the
     ground)
@@ -307,8 +307,3 @@ to a real robot), follow these steps:
     you would expect). It's very common for certain motors to be
     backwards from what you expected and you need to adjust the program
     to handle it.
-
-## Next Steps {#next_steps}
-
-Continue with the next curriculum challenge: [Altering Tank
-Drive](Curriculum_challenge_~_Altering_Tank_Drive "wikilink")

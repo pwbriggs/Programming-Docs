@@ -1,4 +1,4 @@
-## Source Control {#source_control}
+## Source Control
 
 In a nutshell:
 

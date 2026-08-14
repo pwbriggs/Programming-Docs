@@ -70,14 +70,14 @@ any order that seems interesting to you.
 [ Swerve Drive challenges
 ](Curriculum_challenge_~_Advanced_Swerve_challenges "wikilink")
 
-## Making improvements {#making_improvements}
+## Making improvements
 
 This curriculum is meant to be a living program that continues to
 improve/evolve over time. If you run into problems in the challenge
 descriptions here in the wiki or in the actual code/unit tests please
 let us know (or better yet, jump in and fix it if you\'re able).
 
-## Additional Topics {#additional_topics}
+## Additional Topics
 
 [WPILib](https://docs.wpilib.org/en/stable/): Documentation for WPILib,
 which we use extensively in the robot code

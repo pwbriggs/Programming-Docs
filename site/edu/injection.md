@@ -66,6 +66,6 @@ Now, in your tests, when you create the DriveSubsystem you can just give it a fa
 
 This is the basic idea behind injection (aka "putting things your class needs into it from outside") - if your class needs something, you ask somebody else to give it to you. This particular approach is often called Constructor Injection, since we put all the class dependencies in its constructor.
 
-# Next Steps
+## Next Steps
 
-The next step dives deeper into how dependency injection actually works in our robot projects: [[Curriculum lesson ~ Dependency Injection with Dagger]]
+In the next lesson, we'll dive deeper into how dependency injection actually works in our robot projects, using the Dagger framework.

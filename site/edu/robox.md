@@ -11,7 +11,7 @@ Programming Onboarding](Programming-Onboarding "wikilink"). Check if you
 have **FRC Driver Station** installed - if you don\'t have it, you will
 need to install the FRC Update Suite.
 
-# The Robox {#the_robox}
+# The Robox
 
 The Robox is a \"robot-in-a-box\" that we built a few years ago and have
 been using for all sorts of testing ever since.
@@ -44,9 +44,9 @@ been using for all sorts of testing ever since.
         time\<1ms TTL=64\". Then things are good. If not, seek out a
         mentor or veteran for help.
 
-# Getting code onto the Robox {#getting_code_onto_the_robox}
+# Getting code onto the Robox
 
-## Starting Fresh {#starting_fresh}
+## Starting Fresh
 
 It\'s time to put some code on an actual RoboRIO, instead of just
 running tests on your computer. We are going to use the FRCRobotTemplate
@@ -59,7 +59,7 @@ using this template.
 2.  Clone your fork onto your computer
 3.  Open the project in IntelliJ
 
-## Getting a DriveSubsystem working {#getting_a_drivesubsystem_working}
+## Getting a DriveSubsystem working
 
 The FRCRobotTemplate already has a DriveSubsystem.java, and it
 references the ElectricalContract class to determine which devices are
@@ -117,7 +117,7 @@ different numbers. If you\'re using the Robox, the numbers are labeled
 directly on the speed controllers. Choose any 2 speed controllers and
 use their numbers instead of the default ones.
 
-## Getting a command ready {#getting_a_command_ready}
+## Getting a command ready
 
 The FRCRobotTemplate already has a TankDriveWithJoysticksCommand.java.
 It assumes one gamepad - if you have more or different controllers, you
@@ -132,7 +132,7 @@ This command is also considered the default command (check
 SubsystemDefaultCommandMap.java), so it will automatically run when the
 robot starts.
 
-## Deploying code to the robot {#deploying_code_to_the_robot}
+## Deploying code to the robot
 
 At the top of the IntelliJ window, from the build target selector,
 select \"Build & Deploy Robot\". Wait for the process to complete. Your
@@ -141,7 +141,7 @@ output window should look something like this:
     BUILD SUCCESSFUL in 19s
     15 actionable tasks: 8 executed, 7 up-to-date
 
-## Enabling the Robot {#enabling_the_robot}
+## Enabling the Robot
 
 1.  Open the FRC Driver Station on your computer (should have already
     been installed during onboarding as part of the FRC Update Suite).

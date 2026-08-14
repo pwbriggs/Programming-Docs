@@ -30,7 +30,7 @@ I suggest that you think through the problem yourself for a few minutes
 and try some attempts on your own. After you\'ve experimented a bit,
 watch this video: <https://www.youtube.com/watch?v=4Y7zG48uHRo>
 
-## Graphical Tests! {#graphical_tests}
+## Graphical Tests!
 
 [thumb\|LinearVisualizer
 running](images/LinearVisualizer.png "wikilink")
@@ -57,7 +57,7 @@ fastest solutions reach their goal in \~14 loops!
 To help with tuning values and speeding things up, we\'ll introduce the
 Property System next.
 
-## The Property system {#the_property_system}
+## The Property system
 
 It\'s very common on the robot that we have numbers that we want to be
 able to easily tune/tweak. For example:
@@ -116,7 +116,7 @@ Now you can try changing your \`p\` value here and the robot code should
 instantly read and use the new value! Once thats working, create
 properties for any values you want to test and tweak in your commend.
 
-## Running Commands from Elastic {#running_commands_from_elastic}
+## Running Commands from Elastic
 
 To test out your DriveToPositionCommand in the simulator we\'ve set
 things up so you can run the command from Elastic. Do the same Add
@@ -124,8 +124,6 @@ Widget you did before but this time select SmartDashboard -\>
 DriveToPosition and drag that out. You\'ll now see a button you can
 press that will start/stop/restart your command in the simulator.
 
-## Next steps {#next_steps}
+## Next steps
 
-Now is a great time to learn about making a pull request with all the
-great changes you\'ve made so far so hop over to [ Making a
-PR](Curriculum-challenge-~-Making-a-Pull-Request "wikilink")
+Having made all your great code changes, now is a good time to learn about making a *pull request* and share your code with the rest of the programming team.

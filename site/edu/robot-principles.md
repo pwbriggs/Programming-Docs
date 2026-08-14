@@ -30,8 +30,3 @@ This test uses xbot.edubot.basic_understanding.CommandA and xbot.edubot.basic_un
 ## Check your understanding
 
 Take this [quick quiz](https://forms.gle/WfjFZPoCUBNndW6q9)
-
-## Next Steps
-Continue with the next curriculum challenge: [[Curriculum challenge ~ Tank Drive]]
-
-[SeriouslyCommonLib commands page]: https://github.com/Team488/SeriouslyCommonLib/wiki/Commands 
