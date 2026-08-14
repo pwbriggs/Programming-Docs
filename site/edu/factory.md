@@ -51,10 +51,11 @@ Car mySillyCar = CarFactory.createSillyCar();
 When writing code for a robot, we often need to talk to motor controllers, sensors, relays, solenoids, or other devices. For example, we might use the XCANSparkMax class to talk to [Spark Max](https://www.revrobotics.com/rev-11-2158/) motor controllers. We need to build one XCANSparkMax object for each physical motor controller, and they all need to be configured to make sure each object is talking to the right controller. Instead of creating all of these objects manually, we can just ask the XCanSparkMaxFactory to give us the objects we need, with all of the repetitive logic hidden away inside the factory!
 
 [SeriouslyCommonLib](https://github.com/Team488/SeriouslyCommonLib) provides factories that you can use to create lots of useful objects:
+
 * PIDManagerFactory
 * XGyroFactory
 * HeadingModuleFactory
 * XCANSparkMaxFactory
 * ... and dozens of others
 
-All of these built-in factories take advantage of Dependency Injection, which you can read about in the [next section](https://github.com/Team488/XbotEdu/wiki/Curriculum-lesson-~-The-Power-of-Injection).
+All of these built-in factories take advantage of *dependency injection*, which you can read about in the next section.
