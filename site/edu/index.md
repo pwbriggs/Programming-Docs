@@ -1,3 +1,6 @@
+---
+outline: [2, 3]
+---
 Welcome to Team 488 XBOT's programming discipline! This document will guide you through setting up the accounts and software you'll need to complete the XbotEdu curriculum.
 
 > [!NOTE]

@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "XBOT Programming",
   description: "A guide and reference for new and existing members",
+  base: "/Programming-Docs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -22,8 +23,5 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Team488' }
     ],
-  },
-  vite: {
-    base: "/Programming-Docs/",
   },
 });
