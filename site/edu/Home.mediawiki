@@ -1,0 +1,54 @@
+'''Short link:''' https://tinyurl.com/xbotedu
+
+The goal of the this curriculum is to enable new members on the programming team to learn how to code robot specific features. By the end, you'll know how write the program for a robot that can be driven around by a human with joysticks as well as start adding some more sophisticated autonomous drive logic. 
+
+== Format ==
+
+The curriculum is broken down into a series of challenges that will walk you through adding different chunks of functionality to a robot project.
+
+These challenges are setup to enable you to do them without needing access to a physical robot (so for instance you could do them at home away from the robot lab). This is accomplished with unit tests that will verify your code has the expected outcome and let you know if something is wrong/missing.
+
+== Challenges ==
+=== Beginner ===
+Tackle these in order:
+
+* [[ Curriculum challenge ~ Setting Up Your Environment | Setting Up Your Environment ]]
+* [[ Lesson ~ Java Basics | Java Basics ]]
+* [[ Curriculum challenge ~ Basic Robot Principles | Basic Robot Principles ]]
+* [[ Curriculum challenge ~ Tank Drive|Tank Drive]]
+* [[ Curriculum challenge ~ Altering Tank Drive| Altering Tank Drive]]
+* [[ Curriculum challenge ~ Moving to a target position| Moving to a target position]]
+* [[ Curriculum-challenge-~-Making-a-Pull-Request| Making a Pull Request]]
+* [[ Curriculum challenge ~ Rotating to a target orientation| Rotating to a target orientation]]
+* [[ Curriculum‐Lesson‐~‐CommandGroups| Command Groups]]
+* [[ Curriculum Lesson ~ Factory Pattern | Factories ]]
+* [[ Curriculum lesson ~ The Power of Injection | The Power of Injection]]
+* [[ Curriculum lesson ~ Dependency Injection with Dagger | Dependency Injection with Dagger ]]
+* [[ Curriculum challenge ~ Upgrading Using the SeriouslyCommonLib | Upgrading Using the SeriouslyCommonLib]]
+* [[ Curriculum challenge ~ Running XbotEDU on a Real Robot | Running XbotEDU on a Real Robot]]
+* [[ Curriculum challenge ~ Auto-stopping Collector | Auto Stopping Collector ]]
+
+=== Intermediate ===
+Now that you've put code onto a robot, we can take what you've learned in the beginner lessons and expand up on it. Take these categories in any order that seems interesting to you.
+
+[[ Curriculum challenge ~ Intermediate Rotation challenges | Rotation (turning) challenges ]]
+
+[[ Curriculum challenge ~ Intermediate Translation challenges | Translation (forward/backward) challenges ]]
+
+[[ Curriculum challenge ~ Intermediate Driving challenges | Driving (human control) challenges ]]
+
+=== Advanced ===
+
+[[ Curriculum challenge ~ Advanced Swerve challenges | Swerve Drive challenges ]] 
+
+== Making improvements ==
+
+This curriculum is meant to be a living program that continues to improve/evolve over time. If you run into problems in the challenge descriptions here in the wiki or in the actual code/unit tests please let us know (or better yet, jump in and fix it if you're able).
+
+== Additional Topics ==
+
+[https://docs.wpilib.org/en/stable/ WPILib]: Documentation for WPILib, which we use extensively in the robot code
+
+[https://opencv.org/ OpenCV]: For those interested in Vision Programming, you can check out this open source computer vision library that is used some years
+
+[https://learngitbranching.js.org/ learn git branching]: If you want to learn git better, especially terminal commands, this fun online game will walk you through a lot of important concepts and commands.

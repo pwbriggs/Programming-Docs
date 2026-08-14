@@ -1,13 +1,10 @@
 {
-  "name": "xbot-programming-documentation",
-  "version": "1.0.0",
-  "private": true,
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "dev": "vitepress dev site",
+    "build": "vitepress build site",
+    "preview": "vitepress preview site"
   },
-  "devDependencies": {
-    "vitepress": "^1.5.0"
+  "dependencies": {
+    "vitepress": "^1.6.4"
   }
 }
