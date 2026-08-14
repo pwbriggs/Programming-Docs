@@ -1,0 +1,22 @@
+## Source Control {#source_control}
+
+In a nutshell:
+
+-   It\'s really useful to save your code somewhere that isn\'t just on
+    your local computer, in case your computer dies
+-   If all your code is somewhere where everybody can reach it, that
+    means everybody can work on it together
+-   If you keep backups of what your code was like in the past, you can
+    go back to it if you messed something up now.
+
+Advanced:
+
+-   We call the code the \"source code.\" Since we want to keep it under
+    control (backed up, available, etc), we call solutions to this
+    problem \"Source Control.\"
+-   Source control systems such as Git or SVN let us easily back up our
+    code and collaborate together
+
+## Git
+
+## github.com

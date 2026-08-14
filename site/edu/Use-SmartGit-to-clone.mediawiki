@@ -1,9 +1,0 @@
-* Open SmartGit
-* In the upper left corner there's a menu titled `Repository`, click it and then select `Clone`.
-* Select "Remote git or SVN repository"
-* 
-** Go to the repository you want to clone on github.org and press "Code" (Big green button), and copy the URL that pops up (the https version of the url should work fine)
-** Put that URL into the SmartGit dialog box
-* Press Next
-* Make sure "Include Submodules" and "Fetch all Heads and Tags" are checked, then press Next
-* Click on the small folder icon located on the right of "Path:" and choose a folder to store the clone, Then press Finish*

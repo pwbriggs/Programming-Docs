@@ -1,0 +1,9 @@
+When running unit tests, you can view the test output via the Java Test
+Runner output log.
+
+You can open the Output panel using the menu (View \--\> Output) or with
+Ctrl+Shift+U. With the output panel open, select \"Java Test Runner\"
+from the drop-down menu.
+
+[right\|frame\|50px\|Visual Studio Code
+screenshot](images/Vscode-java-test-runner-output.png "wikilink")

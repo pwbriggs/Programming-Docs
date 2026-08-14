@@ -1,0 +1,91 @@
+# Basic
+
+If you want a robot to do something when you press a button on a gamepad
+or joystick, you\'ll need to learn about the OperatorCommandMap.
+
+In any project based on the Robot Template, a file called
+OperatorCommandMap.java already exists. This is where you will be
+creating the mapping. In a new project, it may look like the following:
+
+    @Singleton
+    public class OperatorCommandMap {
+        
+        // Example for setting up a command to fire when a button is pressed:
+        @Inject
+        public void setupMyCommands(
+                OperatorInterface operatorInterface,
+                SetRobotHeadingCommand resetHeading)
+        {
+            resetHeading.setHeadingToApply(90);
+            operatorInterface.gamepad.getifAvailable(1).whenPressed(resetHeading);
+        }
+        
+    }
+
+Let\'s break down what each important piece does.
+
+-   The function name: setupMyCommands(). Typically, we have one method
+    for each major robot component. For example, you can see how [in the
+    2019
+    code](https://github.com/Team488/TeamXbot2019/blob/master/Competition/src/main/java/competition/operator_interface/OperatorCommandMap.java),
+    we have methods like setupDriveCommands, setupGripperCommands, and
+    setupElevatorCommands.
+-   The arguments: operatorInterface and resetHeading. You will always
+    need the operator interface, and you need to include the commmand or
+    commands you want to hook up to buttons.
+
+In the body of the method, we do a few things:
+
+1.  Configure our commands as needed. The SetRobotHeadingCommand needs a
+    heading to apply, so we set that first.
+2.  In the operator interface, we get the device the human is going to
+    use. In this case, it is a gamepad.
+3.  On the gamepad, we \"Get if available\" button number 1. (This does
+    some sanity checks to make sure you\'re not trying to use a button
+    that somebody else already used in the code).
+4.  With the button, we set it to run our resetHeading command whenever
+    the button is pressed with the \"whenPressed\" method. There are
+    other useful methods we could use instead, such as \"whileHeld\" or
+    \"toggleWhenPressed.\"
+
+# Advanced
+
+## Provider\<\> and using the same command over and over {#provider_and_using_the_same_command_over_and_over}
+
+You can run into a case where you need to use the same command multiple
+times. Perhaps you made a command called TurnToAnyAngleCommand, which
+needs to be given a goal angle, and you want to turn to 4 different
+directions. You could either do:
+
+        @Inject
+        public void setupTurningCommands(
+            OperatorInterface operatorInterface,
+            TurnToAnyAngleCommand turnUp,
+            TurnToAnyAngleCommand turnLeft,
+            TurnToAnyAngleCommand turnRight,
+            TurnToAnyAngleCommand turnDown,
+        ) {
+            turnUp.SetGoal(90);
+            turnLeft.SetGoal(180);
+            turnRight.SetGoal(0);
+            turnDown.SetGoal(270);
+
+            operatorInterface.gamepad.getifAvailable(1).whenPressed(turnUp);
+            operatorInterface.gamepad.getifAvailable(2).whenPressed(turnLeft);
+            operatorInterface.gamepad.getifAvailable(3).whenPressed(turnRight);
+            operatorInterface.gamepad.getifAvailable(4).whenPressed(turnDown);
+        }
+
+Or you could use the Provider\<\> as follows to create the commands
+\"on-demand\":
+
+        @Inject
+        public void setupTurningCommands(
+            OperatorInterface operatorInterface,
+            Provider<TurnToAnyAngleCommand> turnProvider
+        ) {
+            operatorInterface.gamepad.getifAvailable(1).whenPressed(turnProvider.get().SetGoal(90));
+            operatorInterface.gamepad.getifAvailable(2).whenPressed(turnProvider.get().SetGoal(180));
+            operatorInterface.gamepad.getifAvailable(3).whenPressed(turnProvider.get().SetGoal(0));
+            operatorInterface.gamepad.getifAvailable(4).whenPressed(turnProvider.get().SetGoal(270));
+        }
