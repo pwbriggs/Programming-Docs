@@ -24,20 +24,20 @@ jobs:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
 
       - name: Set up build environment
-        uses: pnpm/action-setup@v4 # This handles the runtime, package manager, and installation
+        uses: pnpm/setup@v2 # This handles the runtime, package manager, and installation
 
       # At this point, Vitepress's sample workflow suggests using GitHub Actions' cache to speed up
       # CI runs if the site files aren't touched. However, that isn't very useful in our case
       # because the entire repository is the vitepress site; it's not documentation for this repo.
 
       - name: Set up Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v6
 
       - name: Build with VitePress
         run: pnpm run build
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: site/.vitepress/dist
 
@@ -50,4 +50,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
