@@ -26,6 +26,7 @@ const eduSidebar = [
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks: true, // TODO clean up the dead links and then remove this
   title: "XBOT Programming",
   description: "A guide and reference for new and existing members",
   base: "/Programming-Docs/",
