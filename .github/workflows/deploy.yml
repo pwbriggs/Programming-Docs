@@ -18,30 +18,28 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
+      - name: Check out repo
+        uses: actions/checkout@v7
         with:
-          version: 9
+          fetch-depth: 0 # Not needed if lastUpdated is not enabled
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 24
-          cache: pnpm
+      - name: Set up build environment
+        uses: pnpm/action-setup@v4 # This handles the runtime, package manager, and installation
 
-      - name: Install dependencies
-        run: pnpm install
+      # At this point, Vitepress's sample workflow suggests using GitHub Actions' cache to speed up
+      # CI runs if the site files aren't touched. However, that isn't very useful in our case
+      # because the entire repository is the vitepress site; it's not documentation for this repo.
 
-      - name: Build
+      - name: Set up Pages
+        uses: actions/configure-pages@v4
+
+      - name: Build with VitePress
         run: pnpm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist
+          path: site/.vitepress/dist
 
   deploy:
     needs: build
