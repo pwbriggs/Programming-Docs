@@ -35,6 +35,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Curriculum', link: '/edu/' },
+      { text: 'Guides', link: '/guides/' },
+      { text: 'Common patterns', link: '/patterns/' },
     ],
 
     sidebar: {

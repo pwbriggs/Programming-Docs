@@ -8,11 +8,12 @@ hero:
   tagline: For new and existing members
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Intro curriculum
+      link: /edu/
     - theme: alt
-      text: API Examples
-      link: /api-examples
-
+      text: Tool guides
+      link: /guides/
+    - theme: alt
+      text: Common patterns
+      link: /patterns/
 ---
-
