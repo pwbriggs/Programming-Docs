@@ -1,4 +1,10 @@
 node_modules
+
 site/.vitepress/cache
 site/.vitepress/dist
+
+# editors
 .idea*
+.vscode
+site/.obsidian
+site/.trash
