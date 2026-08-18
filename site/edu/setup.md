@@ -1,16 +1,10 @@
-## Getting started
+# Getting started
 
-### Onboarding
+## Onboarding
 
-If you just want to do the curriculum, follow the instructions in: [Edu
-Onboarding](Edu_Onboarding "wikilink")
+To get started with the curriculum, you'll need to set up some accounts and install some software on the computer you plan to use as you work through the curriculum. Before you can continue with the rest of this page, you'll need to follow the [General Onboarding Guide](../guides/general-onboarding.md) to get everything installed.
 
-Or if you need to setup for in-season robot programming, follow the
-instructions in [Full Programming
-Onboarding](Programming_Onboarding "wikilink") to install all the
-required tools you\'ll need.
-
-### Fork the XbotEdu repository
+## Fork the XbotEdu repository
 
 A \'fork\' is a personal copy of a code repository. Forking a repository
 allows you to freely experiment with changes without affecting the
@@ -25,7 +19,7 @@ forking](https://help.github.com/articles/fork-a-repo/).
     not always, it might just do it automatically. select your user
     account (should be the first entry)
 
-### Sync the repository locally
+## Sync the repository locally
 
 1.  If you haven't already, you will [Use GitHub Desktop to
     clone](Use_GitHub_Desktop_to_clone "wikilink") that forked XbotEdu
@@ -37,7 +31,7 @@ command line, like a GitWizard), run the following commands:
     git submodule init
     git submodule update
 
-### Open the Edu projects in IntelliJ
+## Open the Edu projects in IntelliJ
 
 1.  Open the application \'IntelliJ IDEA Community Edition\' that we
     installed during the onboarding steps.

@@ -4,6 +4,7 @@ const eduSidebar = [
   {
     text: "Curriculum",
     items: [
+      { text: "Introduction", link: "/edu/" },
       { text: "Setting up your environment", link: "/edu/setup" },
       { text: "Java Basics", link: "/edu/java-basics" },
       { text: "Basic Robot Principles", link: "/edu/robot-principles" },

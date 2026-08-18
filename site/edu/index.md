@@ -1,92 +1,48 @@
----
-outline: [2, 3]
----
-Welcome to Team 488 XBOT's programming discipline! This document will guide you through setting up the accounts and software you'll need to complete the XbotEdu curriculum.
+# XBOT Programming Curriculum
 
-> [!NOTE]
-> This document describes only the tools you'll need to complete the XbotEdu curriculum. **If you are a programming student during competition season, you'll need to set up a few additional accounts and tools.** Please see the <a href="Programming-Onboarding" class="wikilink" title="Programming Onboarding">in-season Programming Onboarding</a> for more instructions.
+The goal of the this curriculum is to enable new members on the programming team to learn how to code robot specific features. By the end, you'll know how write the program for a robot that can be driven around by a human with joysticks as well as start adding some more sophisticated autonomous drive logic.
 
-> [!IMPORTANT]
-> **Please don't skip any steps** during this onboarding process. Doing so always results in pain down the road as we try to figure out which steps you did or didn't do!
+## Format
 
-If you run into any problems when setting up these items, don't hesitate to reach out to other people on the programming team. We're here to help!
+The curriculum is broken down into a series of challenges that will walk you through adding different chunks of functionality to a robot project.
 
-## Account setup
+These challenges are setup to enable you to do them without needing access to a physical robot (so for instance you could do them at home away from the robot lab). This is accomplished with unit tests that will verify your code has the expected outcome and let you know if something is wrong/missing.
 
-Follow the instructions below to get accounts for the following services.
+## Challenges
 
-### Team laptop
+<!-- ### Beginner-->
 
-If you are using a team laptop, **create your own user account on the laptop**. To do this, log in as the XBOT account, and use that to make your own account. Don't use the XBOT account for programming work, otherwise it's difficult for the next person to use the shared laptop.
+The beginner challenges will introduce you to the fundamental concepts we use in robot programming. **You should complete these challenges in order**, since they build on top of one another. The challenges are listed in the left sidebar, and there are buttons at the bottom of the challenge pages to navigate forward or backward between challenges.
 
-### GitHub
+<!-- TODO hunt down and add in the intermediate and advanced challenges, if they exist at all yet.
+### Intermediate
 
-We store all our code using version control software called Git. A central copy of each code project is hosted on a service called GitHub, to make it easier to coordinate and collaborate with the rest of the programming team. If you aren't familiar with the terms "source control" or "Git", read <a href="Git_Introduction" class="wikilink" title="Git Introduction">Git Introduction</a> and then ask a mentor if you have further questions.
+Now that you've put code onto a robot, we can take what you've learned
+in the beginner lessons and expand up on it. Take these categories in
+any order that seems interesting to you.
 
-1.  If you don't already have a GitHub account, [sign up](https://github.com/signup) for one.
-2.  Ask a programming mentor to add your GitHub account to the [Team 488 organization](https://github.com/Team488) on GitHub.
-3.  GitHub will send by email an invitation to join the GitHub organization. You have to click the link in this email to join the Team488 organization and get increased access to the team's code and other resources on GitHub.
+[ Rotation (turning) challenges
+](Curriculum_challenge_~_Intermediate_Rotation_challenges "wikilink")
 
-### Slack
+[ Translation (forward/backward) challenges
+](Curriculum_challenge_~_Intermediate_Translation_challenges "wikilink")
 
-Slack is a chat tool that XBOT Robotics uses organization-wide as the primary team communication tool. You should already have an account in the [XBOT Slack workspace](https://xbot.slack.com/), and should check and read messages regularly. If you don't have an account, let a mentor know ASAP and they will send an invite to an email address you provide.
+[ Driving (human control) challenges
+](Curriculum_challenge_~_Intermediate_Driving_challenges "wikilink")
 
-Once Slack is set up on your devices, make sure you join the [\#programming](https://xbot.slack.com/archives/C03CS03M6) channel for programming discipline-specific discussions and announcements.
+### Advanced
 
-## Software installation
+[ Swerve Drive challenges
+](Curriculum_challenge_~_Advanced_Swerve_challenges "wikilink")
+-->
+## Making improvements
 
-> [!IMPORTANT]
-> If you are using a shared team laptop, it's possible that some or all of this software has already been set up. Before installing each piece of software below, check if it's already installed by searching for associated apps:
-> * **GitHub Desktop:** search for the app. If it's already installed, open it and make sure it's logged in to your GitHub account
-> * **WPILib:** search "AdvantageScope" and look for a version with the current year (e.g. `AdvantageScope (WPILib) 2026`)
-> * **WPILib VS Code:** search "FRC VS Code" and look for the current year (e.g. `FRC VS Code 2026`)
-> * **IntelliJ:** search "IntelliJ", and if it is installed, continue from step 4 in the IntelliJ section below to check that the necessary plugins are set up
-> If you're unsure, please ask for help.
+This curriculum is meant to be a *living program* that continues to improve and evolve over time. If you run into problems when working on the challenges, whether related to these instructions or to the actual code or unit tests, please let us know (or better yet, jump in and see if you can fix it yourself, then open a pull request).
 
-> [!WARNING]
-> If you're using a shared team laptop, make sure you're logged into your own account on the laptop, not the "XBOT" account.
+## Additional Topics
 
-### GitHub Desktop
+[WPILib](https://docs.wpilib.org/en/stable/): Documentation for WPILib, which we use extensively in the robot code
 
-1.  Download GitHub Desktop from the [download page](https://desktop.github.com/download/).
-2.  Run the installer. It shouldn't ask any questions. It will open GitHub Desktop when it's done.
-3.  Click "Sign in to GitHub.com" and sign in with your account.
+[OpenCV](https://opencv.org/): For those interested in Vision Programming, you can check out this open source computer vision library that is used some years
 
-### WPILib and WPILib VS Code
-
-> [!TIP]
-> It is easy to miss a step here, read the instructions carefully!
-
-Go here: <https://docs.wpilib.org/en/latest/docs/getting-started/getting-started-frc-control-system/wpilib-setup.html>
-
-1.  Follow the **WPILib Installation Guide** steps.
-2.  When in [GitHub](https://github.com/wpilibsuite/allwpilib/releases) to download your appropriate installers, scroll down until you reach "assets" and choose your appropriate installer. Continue following the Instructions.
-3.  Download and run the WPILibInstaller, it will prompt you to select All Users or Current User, select either.
-4.  There will be checkboxes signaling whether or not you have the required files. If greyed out and checked it means it is installed, otherwise the installer will install what you need.
-5.  If you do not have VSCode (Visual Studio Code) click the button that says: "Select/Download VS Code" then, if you have the OfflineVsCode zip, press "select Existing Download" and point the directory towards it (you don't have to unzip the file), if not click the button that says: "Download".
-6.  After you press "Execute Install" the Install should take about 5 minutes.
-7.  After you're finished, run VSCode from the new icon that is created on your desktop after restarting your computer.
-8.  Go into the Extensions tab by either clicking the squares icon on the left ribbon, or by pressing <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>X</kbd>.
-9.  Enter `vscjava.vscode-java-test` into the search box, and select Java Test Runner.
-10. Click on the "Install" button.
-
-### Installing and Configuring IntelliJ
-
-1.  Check the [FRC plugin version page](https://plugins.jetbrains.com/plugin/9405-frc/versions) to find the most recent compatible version of IntelliJ. The FRC plugin is useful, but sometimes lags behind the latest version of IntelliJ. Once you find the most recent supported IntelliJ version number, take note of it so you know what version to download in the next step.
-2.  Go to the [IntelliJ versions page](https://www.jetbrains.com/idea/download/other/) to download the correct version of the IntelliJ installer. Make sure you select "Community Edition" if given the option. There may be multiple download formats available; on Windows, use the `.exe` installer unless you have a reason not to.
-3.  Run the installer. The default settings in the installer should work fine.
-4.  Launch the IntelliJ app (it may be listed as "IntelliJ Community").
-5.  Find the plugins tab and install the following plugins:
-    *  [FRC](https://plugins.jetbrains.com/plugin/9405-frc)
-    *  [CheckStyle-IDEA](https://plugins.jetbrains.com/plugin/1065-checkstyle-idea)
-    *  [VSCode Keymap](https://plugins.jetbrains.com/plugin/12062-vscode-keymap) (optional, but recommended).
-6.  Restart IntelliJ to load the new plugins.
-7.  From the Welcome screen, on the Projects tab, find the link "Configure FRC Team Number". Enter 488 in the dialog box and save the team number.
-8.  From the Welcome screen, on the Customize tab, select VSCode under Keymap (optional, but recommended).
-
-## Done!
-
-Now you should have everything set up to complete the XbotEdu curriculum. Enjoy!
-
-> [!WARNING]
-> Remember, **if you are a programming student during competition season, you'll need to set up a few additional accounts and tools.** Please see the <a href="Programming-Onboarding" class="wikilink" title="Programming Onboarding">in-season Programming Onboarding</a> for more instructions.
+[learn git branching](https://learngitbranching.js.org/): If you want to learn git better, especially terminal commands, this fun online game will walk you through a lot of important concepts and commands.
