@@ -31,7 +31,7 @@ We store all our code using version control software called Git. A central copy 
 
 ### Slack
 
-Slack is a chat tool that XBOT Robotics uses organization-wide as the primary team communication tool. You should already have an account in the [XBOT Slack workspace](https://xbot.slack.com/), and should check and read messages regularly. If you don't have an account, let a mentor know ASAP and they will send an invite to an email address you provide.
+Slack is a chat tool that XBOT Robotics uses organization-wide as the primary team communication tool. Sometimes there are important team announcements on Slack during workshops or in-season meetings, so it's a good idea to log into Slack on the computer that you'll be using for programming. You should already have an account in the [XBOT Slack workspace](https://xbot.slack.com/), and should check and read messages regularly. If you don't have an account in XBOT's Slack workspace, let a mentor know ASAP and they will send an invite to an email address you provide.
 
 Once Slack is set up on your devices, make sure you join the [\#programming](https://xbot.slack.com/archives/C03CS03M6) channel for programming discipline-specific discussions and announcements.
 
